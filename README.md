@@ -13,3 +13,10 @@ It is necessary to adjust the HSV values to match the skin colour of the hand to
 	int V_MIN = 60;
 	int V_MAX = 255;
   ```
+  
+  Furthermore, if you are utilising an external webcam, you will need to adjust the following line of code in order to match the device number of the webcam you wish to use:
+  
+  ```
+  capture.open(0);
+  ```
+  0 is the default webcam.
