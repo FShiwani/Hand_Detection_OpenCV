@@ -20,3 +20,5 @@ It is necessary to adjust the HSV values to match the skin colour of the hand to
   capture.open(0);
   ```
   0 is the default webcam. At the moment, the code is not utilising any enhancement features for noise reduction such as erode or dilate.
+## Screenshots:
+![Operation](HandTracking_OpenCV.png)
